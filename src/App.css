@@ -2,13 +2,7 @@ button{
   height: 50px;
   width: 50px;
 }
-.trafficTop{
-  background-color: black;
-  width: 10px;
-  height: 70px;
-  align-items: initial;
 
-}
 
 .container{
   display: flex;

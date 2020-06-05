@@ -14,9 +14,9 @@ function App() {
       <div className="trafficTop"></div>
       <div className="container">
         <div className="semaforo">
-          <button className={"btn btn-danger rounded-circle " + redlight} onClick={() => (setRedlight("active"), setYellowlight(""), setGreenlight(""))}>  </button>
-          <button className={"btn btn-warning rounded-circle " + yellowlight} onClick={() => (setRedlight(""), setYellowlight("active"), setGreenlight(""))}>  </button>
-          <button className={"btn btn-success rounded-circle " + greelight} onClick={() => (setRedlight(""), setYellowlight(""), setGreenlight("active"))}> </button>
+          <button className={"btn btn-danger rounded-circle " + redlight} onClick={() => (setRedlight("border border-danger"), setYellowlight(""), setGreenlight(""))}>  </button>
+          <button className={"btn btn-warning rounded-circle " + yellowlight} onClick={() => (setRedlight(""), setYellowlight("aborder border-warning"), setGreenlight(""))}>  </button>
+          <button className={"btn btn-success rounded-circle " + greelight} onClick={() => (setRedlight(""), setYellowlight(""), setGreenlight("border border-info"))}> </button>
         </div>
       </div>
     </div>
